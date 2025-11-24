@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b5312f;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #183a37;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo-button {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+
+.logo-button img {
+  height: 40px;
+  width: auto;
+  transition: transform 0.2s;
+}
+
+.logo-button:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.sales-button img {
+    display: block;
+    height: auto;
+    width: 90%;
+    border: none;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.about-button img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 90%;
+    border: none;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
