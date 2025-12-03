@@ -5,7 +5,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #b5312f;
+    background-color: #62466B;
 }
 
 ul li {
@@ -14,15 +14,15 @@ ul li {
 
 ul li a {
     display: block;
-    color: white;
+    color: #A8D5E2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 ul li a:hover {
-    background-color: #183a37;
-    color: white;
+    background-color: #A8D5E2;
+    color: black;
 }
 
 h1 {
