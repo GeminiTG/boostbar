@@ -25,11 +25,19 @@ ul li a:hover {
     color: black;
 }
 
+b {
+  text-align: center;
+}
+
 h1 {
     text-align: center;
 }
 
 h2 {
+    text-align: center;
+}
+
+h3 {
     text-align: center;
 }
 
@@ -96,7 +104,7 @@ h2 {
 .types-button img {
     display: grid;
     margin: auto;
-    height: 500px;
+    height: auto;
     width: 100%;
     transition: transform 0.2s;
 }
